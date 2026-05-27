@@ -1,49 +1,45 @@
-# 🚀 Team Task Manager
+# Team Task Manager
 
-A Full Stack Web Application built to help teams efficiently manage projects, tasks, and members with secure role-based access.
+## Project Description
 
----
-
-## 📌 Project Overview
-
-Team Task Manager is a project management system developed using:
+Team Task Manager is a Full Stack Web Application developed using:
 
 - React JS
 - Spring Boot
 - MySQL
 - JWT Authentication
 
-The application enables teams to streamline workflow by managing:
-
+This project helps teams manage:
 - Projects
 - Tasks
 - Team Members
 
-The system supports Role-Based Authentication with two user roles:
-
+The system has two roles:
 - Admin
 - Member
 
 ---
 
-## ✨ Features
+# Features
 
-### 👨‍💼 Admin Features
+## Admin Features
 
-- Secure Admin Login
+- Admin Login
 - Dashboard Analytics
-- Create Projects
-- Update Projects
-- Delete Projects
-- Add Members to Projects
-- Remove Members from Projects
+- Create Project
+- Update Project
+- Delete Project
+- Add Members to Project
+- Remove Members from Project
 - Create Tasks
 - Assign Tasks to Members
 - Manage Task Status
 
-### 👨‍💻 Member Features
+---
 
-- Secure Member Login
+## Member Features
+
+- Member Login
 - View Assigned Projects
 - View Assigned Tasks
 - Update Task Status
@@ -51,156 +47,104 @@ The system supports Role-Based Authentication with two user roles:
 
 ---
 
-## 🛠️ Tech Stack
+# Technologies Used
 
-### Frontend
+## Frontend
 - React JS
 - CSS
 - React Router DOM
 
-### Backend
+## Backend
 - Spring Boot
 - Spring Security
 - JWT Authentication
 - REST API
 
-### Database
+## Database
 - MySQL
 
 ---
 
-## 🔐 Authentication & Security
+# Login Credentials
 
-- JWT Based Authentication
-- Role-Based Access Control
-- Secure API Authorization
-- Protected Routes
+## Admin Login
 
----
+Email:
+sumit123@gmail.com
 
-## 📂 Project Modules
-
-### 1. Authentication Module
-Handles secure login and token-based authentication.
-
-### 2. Dashboard Module
-Displays analytics and project/task summaries.
-
-### 3. Project Management Module
-Allows project creation, updates, and deletion.
-
-### 4. Task Management Module
-Manages task creation, assignment, and status tracking.
-
-### 5. Member Management Module
-Handles team member assignment and access control.
+Password:
+sumit
 
 ---
 
-## ⚡ Key Functionalities
+## Member Login
+
+Email:
+saurabh21@gmail.com
+
+Password:
+saurabh@123
+
+---
+
+# Project Modules
+
+1. Authentication Module
+2. Dashboard Module
+3. Project Management Module
+4. Task Management Module
+5. Member Management Module
+
+---
+
+# Key Functionalities
 
 - Secure Login using JWT
-- Role-Based Authentication
+- Role Based Authentication
 - CRUD Operations
+- Responsive UI
 - Dynamic Data Fetching
 - Confirmation Popups
-- Responsive UI
-- Mobile-Friendly Design
+- Mobile Responsive Design
 
 ---
 
-## 🔑 Demo Login Credentials
+# Project Setup
 
-### Admin Login
-**Email:** `vaibhav123@gmail.com`  
-**Password:** `vaibhav`
+## Backend Setup
 
-### Member Login
-**Email:** `sachin@gmail.com`  
-**Password:** `sachin@123`
+### 1. Open Backend Project
 
----
-
-## ⚙️ Project Setup
-
-### Backend Setup
-
-#### Step 1: Open Backend Project
 Open the Spring Boot project in:
-
 - IntelliJ IDEA
+or
 - Eclipse
 
-#### Step 2: Configure Database
+---
+
+### 2. Configure Database
 
 Update `application.properties`
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/team_task_manager
+
 spring.datasource.username=root
+
 spring.datasource.password=your_password
+
 spring.jpa.hibernate.ddl-auto=update
-```
 
-#### Step 3: Run Backend
 
-```bash
-mvn spring-boot:run
-```
 
----
 
-### Frontend Setup
 
-#### Step 1: Navigate to Frontend Folder
+# Project Objective
 
-```bash
-cd frontend
-```
-
-#### Step 2: Install Dependencies
-
-```bash
-npm install
-```
-
-#### Step 3: Start Application
-
-```bash
-npm start
-```
+The main objective of this project is to help teams organize projects and tasks efficiently with proper role-based management.
 
 ---
 
-## 🎯 Project Objective
+# Developed By
 
-The main objective of this project is to help teams organize projects and tasks efficiently through a secure and structured role-based management system.
-
-This application improves:
-
-- Team Collaboration
-- Task Tracking
-- Project Organization
-- Workflow Transparency
-
----
-
-## 🚀 Future Enhancements
-
-- Email Notifications
-- Real-Time Task Updates
-- File Attachments
-- Project Deadlines & Reminders
-- Activity Logs
-- Chat Integration
-
----
-
-## 👨‍💻 Developed By
-
-**Vaibhav Rai**  
-B.Tech - Computer Science and Engineering
-
----
-
-⭐ If you like this project, give it a star on GitHub!
+Sumit Chauhan
